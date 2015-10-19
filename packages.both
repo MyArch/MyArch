@@ -60,8 +60,13 @@ wvdial
 xl2tpd
 zd1211-firmware
 
+base-devel
+bash-completion
+ttf-dejavu
+virtualbox-guest-utils
+xfce4
+xorg-drivers
 xorg-server
+xorg-twm
 xorg-xinit
-xf86-video-ati
-xf86-video-intel
-xf86-video-nouveau
+xterm
