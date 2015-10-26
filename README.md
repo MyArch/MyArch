@@ -24,7 +24,9 @@ calamares (https://calamares.io/).
 
 1. You need a 64 bit archlinux system.
 2. Download archIso : ```sudo pacman -Syu archiso```
-3. Build the iso (for 64 bit only for the moment) with : ```sudo ./build.sh -v```
+3. Clone this repository.
+4. Build the iso (for 64 bit only for the moment) with : ```sudo ./build.sh -v```
+5. Burn it on CD/USB/other. For the moment, the installation is like on the Arch vanilla (terminal install), but with a great environment (cinnamon) and firefox. So, it's already better than the tty only install :D
 
 ## TO DO
 
