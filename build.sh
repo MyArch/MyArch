@@ -263,7 +263,7 @@ run_once make_efi
 run_once make_efiboot
 
 for arch in x86_64; do
-    make_prepare
+    run_once make_prepare
 done
 
-make_iso
+run_once make_iso

@@ -64,9 +64,10 @@ base-devel
 bash-completion
 ttf-dejavu
 virtualbox-guest-utils
-xfce4
+cinnamon
 xorg-drivers
 xorg-server
 xorg-twm
 xorg-xinit
-xterm
+terminator
+firefox
