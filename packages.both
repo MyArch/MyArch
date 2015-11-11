@@ -60,14 +60,18 @@ wvdial
 xl2tpd
 zd1211-firmware
 
-base-devel
-bash-completion
-ttf-dejavu
-virtualbox-guest-utils
-cinnamon
-xorg-drivers
-xorg-server
-xorg-twm
-xorg-xinit
-terminator
+# Browser
 firefox
+
+# Network
+wicd
+
+# Sound
+alsa-utils
+
+# X
+xorg-server
+xorg-xinit
+xorg-server-utils
+xorg-drivers
+xfce4
