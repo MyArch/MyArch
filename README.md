@@ -1,7 +1,7 @@
 # monArch
 
 The project is at the beginning of its development. For the moment, it's just an
-Arch live CD with the xfce environnment.
+Arch live CD with the xfce environnment and a shell installer.
 
 ## FAQ
 
@@ -14,23 +14,23 @@ liveCD or a great GUI installer ? That's why i start monArch !
 
 ### OK, but what's the difference with the others arch based distribution ?
 
-Like antergos, i are based on the Arch repository (we don't have our own
-repository like manjaro). I want to offer a choice between
-several desktop environment or windows manager. But we don't want to stop
-here. With monArch, our goal is to offer a real choice for everything on
-your system : kernel, browser, terminal, environment, etc.. Yes, you can
-install a tty only system or a system with hundred of soft install. Also,
-our installer is not homemade, it's calamares (https://calamares.io/).
+Like antergos, monArch is based on the Arch repository (we don't have our own
+repository like manjaro). I want to offer a choice between several desktop
+environment or windows manager. But we don't want to stop here. With monArch,
+our goal is to offer a real choice for everything on your system : kernel,
+browser, terminal, environment, etc.. Yes, you can install a tty only system
+or a system with hundred of soft install. Also, our installer is not homemade,
+it's calamares (https://calamares.io/).
 
 ## How to build it.
 
 1. You need a 64 bit archlinux system.
-2. Download archIso : ```sudo pacman -Syu archiso```
+2. Download archIso : `sudo pacman -Syu archiso`
 3. Clone this repository.
-4. Build the iso with : ```sudo ./build.sh -v```
+4. Build the iso with : `sudo ./build.sh -v`
 5. Burn it on CD/USB/other. For the moment, the installation is like on the Arch
-vanilla (terminal install), but with xfce4 and firefox. So, it's already better
-than the tty only install :D
+vanilla (terminal install), but with xfce4 , an install script and firefox. So,
+it's already better than the tty only install :D
 
 ## TO DO
 
