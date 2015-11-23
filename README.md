@@ -26,7 +26,7 @@ it's calamares (https://calamares.io/).
 
 1. You need a 64 bit archlinux system.
 2. Download archIso : `sudo pacman -Syu archiso`
-3. Clone this repository.
+3. Clone this repository : `git clone --recursive https://github.com/Nandicre/monArch`
 4. Build the iso with : `sudo ./build.sh -v`
 5. Burn it on CD/USB/other. For the moment, the installation is like on the Arch
 vanilla (terminal install), but with xfce4 , an install script and firefox. So,
