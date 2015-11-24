@@ -1,6 +1,0 @@
-[submodule "AIS"]
-	path = AIS
-	url = https://github.com/Nandicre/AIS
-[submodule "airootfs/root/install_cript"]
-	path = airootfs/root/install_cript
-	url = https://github.com/Nandicre/AIS
