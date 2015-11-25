@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nandicre/monArch/blob/master/LICENSE)
 # monArch
 
 The project is at the beginning of its development. For the moment, it's just an
