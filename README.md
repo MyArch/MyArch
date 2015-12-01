@@ -1,8 +1,16 @@
+# MonArch
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nandicre/monArch/blob/master/LICENSE)
-# monArch
 
-The project is at the beginning of its development. For the moment, it's just an
-Arch live CD with the xfce environnment and a shell installer.
+The project is at the beginning of its development.
+For the moment, it's just an Arch live CD with the xfce environnment and a shell installer.
+
+## How to build it.
+
+1. You need a 64 bit archlinux system. (pre-build iso coming soon)
+2. Download archIso : `sudo pacman -Syu archiso`
+3. Clone this repository : `git clone --recursive https://github.com/Nandicre/monArch`
+4. Build the iso with : `sudo ./build.sh -v`
+5. Burn it to a CD/USB/other.
 
 ## FAQ
 
@@ -10,31 +18,21 @@ Arch live CD with the xfce environnment and a shell installer.
 
 I really love the ArchLinux distribution, but sometimes, when i install arch on
 a new computer, it bothers me to reinstall all from scratch. OK, i can use a
-script (and i do ;p). But, why not installing it with a great environment on the
+script (and i do ;p). But, why not installing it with a great environment on a
 liveCD or a great GUI installer ? That's why i start monArch !
 
-### OK, but what's the difference with the others arch based distribution ?
+### OK, but what's the difference with the others Arch-based distribution ?
 
-Like antergos, monArch is based on the Arch repository (we don't have our own
-repository like manjaro). I want to offer a choice between several desktop
-environment or windows manager. But we don't want to stop here. With monArch,
-our goal is to offer a real choice for everything on your system : kernel,
-browser, terminal, environment, etc.. Yes, you can install a tty only system
-or a system with hundred of soft install. Also, our installer is not homemade,
-it's calamares (https://calamares.io/).
-
-## How to build it.
-
-1. You need a 64 bit archlinux system.
-2. Download archIso : `sudo pacman -Syu archiso`
-3. Clone this repository : `git clone --recursive https://github.com/Nandicre/monArch`
-4. Build the iso with : `sudo ./build.sh -v`
-5. Burn it on CD/USB/other. For the moment, the installation is like on the Arch
-vanilla (terminal install), but with xfce4 , an install script and firefox. So,
-it's already better than the tty only install :D
+First, we are only based on the arch repository. We don't have our own repository
+like manjaro. Secondly, i really want to propose choice with monArch. My goal is
+to let the users choose between several DE, WM, soft, kernel, drivers, etc... It's
+the purpose of an arch after all ! So you can have the power of choice given by
+ArchLinux and the simplicity of install given by Calamares.
 
 ## TO DO
 
-- let the user choose the keyboard layout.
-- add calamares for the installation.
-- and a lot more to have a great distro :) .
+- Add images on the syslinux bootloader.
+- Link keyboard choice on bootloader to livecd instance.
+- Change the cli script for installation.
+- Add calamares for the installation.
+- And a lot more to have a powerfull install liveCD :D

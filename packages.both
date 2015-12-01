@@ -72,10 +72,11 @@ alsa-utils
 # Utilities
 git
 
-# X
+# Xorg
 xorg-server
-xorg-xinit
 xorg-server-utils
+xorg-xinit
 xorg-drivers
+
+# XFCE
 xfce4
-virtualbox-guest-dkms

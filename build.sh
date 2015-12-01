@@ -234,7 +234,6 @@ while getopts 'N:V:L:D:w:o:vh' arg; do
   esac
 done
 
-rm -rf work out
 mkdir -p ${work_dir}
 
 run_once make_pacman_conf
@@ -243,6 +242,7 @@ run_once make_basefs
 run_once make_packages
 run_once make_packages_efi
 run_once make_setup_mkinitcpio
+run_once make_customize_airootfs
 run_once make_boot
 
 # Do all stuff for "iso"
@@ -251,4 +251,4 @@ run_once make_isolinux
 run_once make_efi
 run_once make_efiboot
 run_once make_prepare
-run_once make_iso
+make_iso
