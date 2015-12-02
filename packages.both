@@ -1,28 +1,64 @@
-arch-install-scripts
-b43-fwcutter
-btrfs-progs
-clonezilla
+# Installation
 crda
+dmraid
+gparted
+gptfdisk
+parted
+
+# Browser
+firefox
+
+# Sound
+alsa-utils
+
+# Utilities
+git
+
+# XFCE
+xfce4
+
+# Network
+b43-fwcutter
+dnsutils
+ipw2100-fw
+ipw2200-fw
+usb_modeswitch
+wireless_tools
+wpa_actiond
+zd1211-firmware
+
+# Filesystems
+btrfs-progs
+dosfstools
+ntfs-3g
+
+# Xorg
+xorg-server
+xorg-server-utils
+xorg-xinit
+xorg-drivers
+
+# System Tools
+grml-zsh-config
+openssh
+sudo
+
+# Other packages
+arch-install-scripts
+clonezilla
 darkhttpd
 ddrescue
 dhclient
 dialog
-dmraid
 dnsmasq
-dnsutils
-dosfstools
 elinks
 ethtool
 f2fs-tools
 fsarchiver
 gnu-netcat
 gpm
-gptfdisk
-grml-zsh-config
 grub
 hdparm
-ipw2100-fw
-ipw2200-fw
 irssi
 lftp
 linux-atm
@@ -31,13 +67,10 @@ mtools
 nfs-utils
 nilfs-utils
 nmap
-ntfs-3g
 ntp
 openconnect
-openssh
 openvpn
 partclone
-parted
 partimage
 ppp
 pptpclient
@@ -47,36 +80,10 @@ rp-pppoe
 rsync
 smartmontools
 speedtouch
-sudo
 tcpdump
 testdisk
-usb_modeswitch
 vim-minimal
 vpnc
 wget
-wireless_tools
-wpa_actiond
 wvdial
 xl2tpd
-zd1211-firmware
-
-# Browser
-firefox
-
-# Network
-wicd
-
-# Sound
-alsa-utils
-
-# Utilities
-git
-
-# Xorg
-xorg-server
-xorg-server-utils
-xorg-xinit
-xorg-drivers
-
-# XFCE
-xfce4
