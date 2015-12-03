@@ -1,2 +1,2 @@
 ~/.automated_script.sh
-exec startxfce4
+#exec startxfce4

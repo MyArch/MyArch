@@ -39,7 +39,7 @@ xorg-xinit
 xorg-drivers
 
 # System Tools
-grml-zsh-config
+#grml-zsh-config
 openssh
 sudo
 
