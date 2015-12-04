@@ -8,6 +8,7 @@ For the moment, it's just an Arch live CD with the xfce environnment and a shell
 
 1. You need a 64 bit archlinux system. (pre-build iso coming soon)
 2. Download archIso : `sudo pacman -Syu archiso`
+.5 Modify `/usr/bin/mkarchiso`, and add `-i` to all the `pacstrap` command (Optional)
 3. Clone this repository : `git clone --recursive https://github.com/Nandicre/monArch`
 4. Build the iso with : `sudo ./build.sh -v`
 5. Burn it to a CD/USB/other.
