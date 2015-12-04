@@ -1,7 +1,7 @@
 # MonArch
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nandicre/monArch/blob/master/LICENSE)
 
-The project is at the beginning of its development.
+The project is a work in progress.
 For the moment, it's just an Arch live CD with the xfce environnment and a shell installer.
 
 ## How to build it.
@@ -32,7 +32,6 @@ ArchLinux and the simplicity of install given by Calamares.
 
 ## TO DO
 
-- Add images on the syslinux bootloader.
 - Link keyboard choice on bootloader to livecd instance.
 - Change the cli script for installation.
 - Add calamares for the installation.

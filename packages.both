@@ -11,9 +11,6 @@ firefox
 # Sound
 alsa-utils
 
-# Utilities
-git
-
 # XFCE
 xfce4
 
@@ -42,6 +39,8 @@ xorg-drivers
 #grml-zsh-config
 openssh
 sudo
+git
+dialog
 
 # Other packages
 arch-install-scripts
