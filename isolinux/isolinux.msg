@@ -1,13 +1,13 @@
 
-Welcome to monArch !
+Welcome to MonArch !
 
 To start the system enter 'start and press <return>
 
 
 Available boot options:
-start                    - Start monArch Live System
-harddisk                 - Local boot from hard disk
+start                    - Start MonArch Live System
+harddisk                 - Local Boot From Hard Disk
 hdt                      - Run Hardware Detection Tool
 memtest                  - Run Memory Test
-reboot			 - Reboot the system
-poweroff		 - Shutdown the system
+reboot			 - Reboot System
+shutdown		 - Power Off System
