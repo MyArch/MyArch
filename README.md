@@ -1,5 +1,5 @@
-# MonArch
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nandicre/monArch/blob/master/LICENSE)
+# MyArch
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nandicre/MyArch/blob/master/LICENSE)
 
 The project is a work in progress.
 For the moment, it's just an Arch live CD with the xfce environnment and a shell installer.
@@ -9,7 +9,7 @@ For the moment, it's just an Arch live CD with the xfce environnment and a shell
 1. You need a 64 bit archlinux system. (pre-build iso coming soon)
 2. Download archIso : `sudo pacman -Syu archiso`
 3. Modify `/usr/bin/mkarchiso`, and add `-i` to all the `pacstrap` command (Optional)
-4. Clone this repository : `git clone --recursive https://github.com/Nandicre/monArch`
+4. Clone this repository : `git clone --recursive https://github.com/Nandicre/MyArch`
 5. Build the iso with : `sudo ./build.sh -v`
 6. Burn it to a CD/USB/other.
 
@@ -20,7 +20,7 @@ For the moment, it's just an Arch live CD with the xfce environnment and a shell
 I really love the ArchLinux distribution, but sometimes, when i install arch on
 a new computer, it bothers me to reinstall all from scratch. OK, i can use a
 script (and i do ;p). But, why not installing it with a great environment on a
-liveCD or a great GUI installer ? That's why i start monArch !
+liveCD or a great GUI installer ? That's why i start MyArch !
 
 ### OK, but what's the difference with the others Arch-based distribution ?
 
