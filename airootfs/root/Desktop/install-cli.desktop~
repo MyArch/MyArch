@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Install MyArch Linux (cli)
+GenericName=Cli Installer
+Comment=Install the operating system to disk
+Exec=/root/install_script/install.sh
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=System;

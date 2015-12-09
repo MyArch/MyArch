@@ -20,12 +20,13 @@ For the moment, it's just an Arch live CD with the xfce environnment and a shell
 I really love the ArchLinux distribution, but sometimes, when i install arch on
 a new computer, it bothers me to reinstall all from scratch. OK, i can use a
 script (and i do ;p). But, why not installing it with a great environment on a
-liveCD or a great GUI installer ? That's why i start MyArch !
+liveCD or a great GUI installer ? That's why i start MyArch ! And it's not a
+distribution, it's just an installer.
 
 ### OK, but what's the difference with the others Arch-based distribution ?
 
 First, we are only based on the arch repository. We don't have our own repository
-like manjaro. Secondly, i really want to propose choice with monArch. My goal is
+like manjaro. Secondly, i really want to propose choice with MyArch. My goal is
 to let the users choose between several DE, WM, soft, kernel, drivers, etc... It's
 the purpose of an arch after all ! So you can have the power of choice given by
 ArchLinux and the simplicity of install given by Calamares.
@@ -33,6 +34,6 @@ ArchLinux and the simplicity of install given by Calamares.
 ## TO DO
 
 - Link keyboard choice on bootloader to livecd instance.
-- Change the cli script for installation.
+- Improve cli install.
 - Add calamares for the installation.
-- And a lot more to have a powerfull install liveCD :D
+- And a lot more to have a powerfull liveCD :D
