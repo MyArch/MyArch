@@ -2,8 +2,8 @@
 
 set -e -u
 
-iso_name=monarch
-iso_label="monArch"
+iso_name=Myarch
+iso_label="MyArch"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
 arch=$(uname -m)
