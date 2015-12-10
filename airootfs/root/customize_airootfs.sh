@@ -24,3 +24,4 @@ systemctl set-default multi-user.target
 
 mkdir -p /root/install_script
 git clone https://github.com/Nandicre/MyArch-install-script /root/install_script
+chmod +x /root/install_script/install.sh
