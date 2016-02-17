@@ -42,6 +42,7 @@ openssh
 sudo
 git
 dialog
+wipe
 
 # Other packages
 arch-install-scripts
