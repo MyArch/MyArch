@@ -1,13 +1,13 @@
 
 Welcome to MyArch !
 
-To start the system enter 'start and press <return>
+To start the system input 'start' and press <Enter>
 
 
 Available boot options:
+harddisk                 - Boot From Hard Disk
 start                    - Start MyArch Live System
-harddisk                 - Local Boot From Hard Disk
-hdt                      - Run Hardware Detection Tool
+multi                    - Non-Graphical Boot
 memtest                  - Run Memory Test
 reboot			 - Reboot System
-shutdown		 - Power Off System
+poweroff		 - Shutdown The System
