@@ -235,6 +235,7 @@ while getopts 'N:V:L:D:w:o:vh' arg; do
 done
 
 pacman-key --init
+pacman-key --populate archlinux
 mkdir -p ${work_dir}
 
 run_once make_pacman_conf
