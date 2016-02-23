@@ -35,6 +35,7 @@ ArchLinux and the simplicity of installation given by Calamares.
 
 ## TODO list
 
+- Improve gfxboot
 - Link keyboard choice on bootloader to livecd instance.
 - Improve cli install.
 - Add calamares for the installation.
