@@ -2,12 +2,13 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MyArch/MyArch/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/MyArch/MyArch.svg?branch=master)](https://travis-ci.org/MyArch/MyArch)
 
-The project is a work in progress.
-For the moment, it's just an Arch live CD with the xfce environnment and a shell installer.
+## How to get it.
+
+Download the last iso from release tab.
 
 ## How to build it.
 
-1. You need a 64 bit archlinux system. (pre-build iso coming soon)
+1. You need a 64 bit archlinux system.
 2. Download archIso : `sudo pacman -Syu archiso`
 3. Modify `/usr/bin/mkarchiso`, and add `-i` to all the `pacstrap` command (Optional)
 4. Clone this repository : `git clone --recursive https://github.com/MyArch/MyArch`
