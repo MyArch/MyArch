@@ -1,5 +1,6 @@
 # MyArch
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MyArch/MyArch/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/MyArch/MyArch.svg?branch=master)](https://travis-ci.org/MyArch/MyArch)
 
 The project is a work in progress.
 For the moment, it's just an Arch live CD with the xfce environnment and a shell installer.
