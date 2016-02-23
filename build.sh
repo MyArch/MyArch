@@ -234,6 +234,7 @@ while getopts 'N:V:L:D:w:o:vh' arg; do
   esac
 done
 
+pacman-key --init
 mkdir -p ${work_dir}
 
 run_once make_pacman_conf
