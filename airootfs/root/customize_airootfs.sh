@@ -20,6 +20,7 @@ sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service
+systemctl enable lightdm.service
 systemctl set-default multi-user.target
 
 mkdir -p /root/install_script
