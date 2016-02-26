@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source .locale_setup.sh
+
 script_cmdline ()
 {
     local param
@@ -32,3 +34,5 @@ automated_script ()
 if [[ $(tty) == "/dev/tty1" ]]; then
     automated_script
 fi
+
+set_locale
