@@ -1,3 +1,5 @@
+# PROJECT NO LONGER MAINTAINED
+
 # MyArch
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MyArch/MyArch/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/MyArch/MyArch.svg?branch=master)](https://travis-ci.org/MyArch/MyArch)
